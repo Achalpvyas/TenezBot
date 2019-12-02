@@ -60,15 +60,19 @@ Open a terminal
 ```
 mkdir -p ~/<workspace>/src
 cd <workspace>/src
-git clone 
-
+git clone https://github.com/Achalpvyas/TenezBot.git
+cd ..
+catkin_make
+source devel/setup.bash
 
 ```
 
 ### Running the packages
-
+Open a terminal
 ```
-
+cd <workspace>
+source devel/setup.bash
+roslaunch tenezbot tenezbot.launch
 
 ```
 
@@ -91,6 +95,8 @@ git clone
 ### Known Bugs/Issues
 
 ```
+The robot is not able to detect the balls.
+The robot is rotating about its location and not moving towards the balls as it can't detect the balls.
 
 
 ```
