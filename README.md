@@ -46,9 +46,10 @@ The robot would perform the following steps to complete its task:
 - Git 2.7.4
 - Opencv [link](https://opencv.org/)
 - ROS Navigation stack
-- ROS Geometry MOdules
+- ROS Geometry Modules
 - Gtest
-
+- Rostest
+- TurtleBot Package
 ## Outline of ROS Messages and Services
 - ROS Navigation Stack: It uses tf transform tree to maintain the model, messages used are geometry_msgs/twists, std_msgs, gen_msgs, nav_msgs/GridCells, nav_msgs/MapMetaData, nav_msgs/OccupancyGrid, nav_msgs/Odometry, nav_msgs/Path.
 
@@ -56,16 +57,27 @@ The robot would perform the following steps to complete its task:
 
 ### Building Workspace and Packages
 
+#### Install TurtleBot Package
+Open a terminal
+```
+sudo apt-get install ros-kinetic-turtlebot-gazebo 
 ```
 
-
+```
+mkdir -p ~/<workspace>/src
+cd <workspace>/src
+git clone https://github.com/Achalpvyas/TenezBot.git
+cd ..
+catkin_make
+source devel/setup.bash
 ```
 
 ### Running the packages
-
+Open a terminal
 ```
-
-
+cd <workspace>
+source devel/setup.bash
+roslaunch tenezbot tenezbot.launch
 ```
 
 ### Testing the packages
@@ -87,16 +99,9 @@ The robot would perform the following steps to complete its task:
 ### Known Bugs/Issues
 
 ```
-
-
+- Currently the software spawns the robot successfully in the environment and tries to scan the environment but fails to detect the ball.
 ```
 
-## Developer Level Documentation
-
-```
-
-
-```
 
 ## Graphics/Videos/GIFS as demo and project promotion
 
@@ -105,4 +110,8 @@ The robot would perform the following steps to complete its task:
 
 ```
 
+## Deliverables
+```
 
+
+```
