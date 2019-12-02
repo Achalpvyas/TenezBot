@@ -1,0 +1,5 @@
+<launch>
+
+<test test-name="test_velocity"  pkg="tenezbot"  type="test_velocity"  cwd="node"/>
+
+</launch>
