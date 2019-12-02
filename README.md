@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/Pruthvi-Sanghavi/TenezBot.svg?branch=master)](https://travis-ci.org/Pruthvi-Sanghavi/TenezBot)
 [![Coverage Status](https://coveralls.io/repos/github/Pruthvi-Sanghavi/TenezBot/badge.svg?branch=master)](https://coveralls.io/github/Pruthvi-Sanghavi/TenezBot?branch=master)
 
+
 ## Developers
 
 - Achal Vyas [Github](https://github.com/Achalpvyas)
@@ -46,7 +47,7 @@ The robot would perform the following steps to complete its task:
 - Git 2.7.4
 - Opencv [link](https://opencv.org/)
 - ROS Navigation stack
-- ROS Geometry MOdules
+- ROS Geometry Modules
 - Gtest
 
 ## Outline of ROS Messages and Services
@@ -55,8 +56,11 @@ The robot would perform the following steps to complete its task:
 ## Build, Test and Run Instructions
 
 ### Building Workspace and Packages
-
+Open a terminal
 ```
+mkdir -p ~/<workspace>/src
+cd <workspace>/src
+git clone 
 
 
 ```
@@ -104,5 +108,10 @@ The robot would perform the following steps to complete its task:
 
 
 ```
+## Deliverables
 
+```
+
+
+```
 
