@@ -111,7 +111,7 @@ The robot is rotating about its location and not moving towards the balls as it 
 ## Graphics/Videos/GIFS as demo and project promotion
 
 ```
-
+![Demo](https://github.com/Achalpvyas/TenezBot/blob/master/demo/tenezbot.gif)
 
 ```
 ## Deliverables
