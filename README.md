@@ -110,14 +110,20 @@ The robot is rotating about its location and not moving towards the balls as it 
 
 ## Graphics/Videos/GIFS as demo and project promotion
 
-```
+
 ![Alt Text](https://github.com/Achalpvyas/TenezBot/blob/master/demo/tenezbot.gif)
 
-```
 ## Deliverables
 
-```
+
+The deliverable we will be providing with this package are:
+- C++ Codes
+- Dependent Software Packages
+- World file: Tennis court
+- Demo files - rqt graphs, visualisation tools, Recorded Bag Files (Showing simulation of the robot
+  collecting balls in the tennis court)
+- Instruction manual - Building, Testing, Running, Recording and Playing and Hardware
+  Implementation (Micro -Processor) instructions
 
 
-```
 
